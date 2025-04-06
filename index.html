@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Achintha Tours</title>
+    <link href="https://cdn.tailwindcss.com" rel="stylesheet">
+    <style>
+        body { scroll-behavior: smooth; }
+    </style>
+</head>
+<body class="bg-gray-100 font-sans leading-normal tracking-normal">
+
+    <!-- Navigation Bar -->
+    <nav class="bg-white shadow fixed w-full z-10 top-0">
+        <div class="container mx-auto px-6 py-4">
+            <div class="flex items-center justify-between">
+                <div class="text-xl text-gray-800 font-semibold">Achintha Tours</div>
+                <div class="flex space-x-4">
+                    <a href="#home" class="text-blue-600 hover:text-blue-800 px-3 py-2 rounded-md font-medium">Home</a>
+                    <a href="#about" class="text-blue-600 hover:text-blue-800 px-3 py-2 rounded-md font-medium">About</a>
+                    <a href="#destinations" class="text-blue-600 hover:text-blue-800 px-3 py-2 rounded-md font-medium">Destinations</a>
+                    <a href="#gallery" class="text-blue-600 hover:text-blue-800 px-3 py-2 rounded-md font-medium">Gallery</a>
+                    <a href="#contact" class="text-blue-600 hover:text-blue-800 px-3 py-2 rounded-md font-medium">Contact</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home" class="text-center bg-blue-500 h-screen flex items-center justify-center flex-col">
+        <h1 class="text-6xl font-bold text-white">Explore with Achintha Tours</h1>
+        <p class="text-xl text-white mt-4">Discover your next great adventure.</p>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="container mx-auto text-center py-12">
+        <h2 class="text-4xl font-bold text-gray-800">About Us</h2>
+        <p class="text-md mt-4 text-gray-600 max-w-2xl mx-auto">
+            Dedicated to offering the best travel experiences, Achintha Tours provides personalized and group tours across the globe.
+        </p>
+    </section>
+
+    <!-- Destinations Section -->
+    <section id="destinations" class="bg-gray-100 py-12">
+        <div class="container mx-auto">
+            <h2 class="text-4xl font-bold text-center text-gray-800">Destinations</h2>
+            <div class="flex justify-center items-center flex-wrap mt-4">
+                <div class="m-4 p-6 bg-white rounded-lg shadow-md">
+                    <h3 class="font-semibold text-lg">Maldives</h3>
+                    <p class="text-gray-600 mt-2">Stunning beaches and crystal-clear waters await you.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="py-12">
+        <div class="container mx-auto text-center">
+            <h2 class="text-4xl font-bold text-gray-800">Gallery</h2>
+            <div class="flex justify-center items-center flex-wrap mt-4">
+                <div class="m-4">
+                    <div class="w-64 h-64 bg-gray-300"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="bg-white py-12">
+        <div class="container mx-auto text-center">
+            <h2 class="text-4xl font-bold text-gray-800">Contact Us</h2>
+            <p class="text-md mt-4 text-gray-600">Reach out for more information or to book your next tour.</p>
+            <div class="mt-6">
+                <form class="space-y-4">
+                    <input type="text" placeholder="Your name" class="px-4 py-2 border rounded focus:outline-none focus:ring-2 focus:ring-blue-500 transition">
+                    <input type="email" placeholder="Your email" class="px-4 py-2 border rounded focus:outline-none focus:ring-2 focus:ring-blue-500 transition">
+                    <textarea placeholder="Your message" class="px-4 py-2 border rounded focus:outline-none focus:ring-2 focus:ring-blue-500 transition"></textarea>
+                    <button type="submit" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">Send</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white text-center p-4 mt-12">
+        © 2025 Achintha Tours. All rights reserved.
+    </footer>
+
+</body>
+</html>
